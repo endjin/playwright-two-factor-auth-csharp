@@ -12,6 +12,23 @@ TBD
 
 TBD
 
+### Environment Variables
+
+Add the following:
+
+```
+PLAYWRIGHT_AAD_ACCOUNT_USERNAME
+PLAYWRIGHT_AAD_ACCOUNT_PASSWORD
+PLAYWRIGHT_AAD_ACCOUNT_TOTP
+PLAYWRIGHT_MSA_ACCOUNT_USERNAME
+PLAYWRIGHT_MSA_ACCOUNT_PASSWORD
+PLAYWRIGHT_MSA_ACCOUNT_TOTP
+```
+
+TOTP values should be the Secret key from the 2FA set up step.
+
+You will need to restart Visual Studio for the settings to be picked up.
+
 ## Licenses
 
 [![GitHub license](https://img.shields.io/badge/License-Apache%202-blue.svg)](https://raw.githubusercontent.com/endjin/playwright-two-factor-auth-csharp/main/LICENSE)
