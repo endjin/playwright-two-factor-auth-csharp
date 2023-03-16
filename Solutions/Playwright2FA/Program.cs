@@ -69,9 +69,9 @@ public static class Program
         await page.GetByRole(AriaRole.Button, new() { Name = "Yes" }).ClickAsync();
     }
 
-    private static string GenerateTwoFactorAuthCode(string code)
+    private static string GenerateTwoFactorAuthCode(string secret)
     {
-        Totp totp = new(secretKey: Base32Encoding.ToBytes(code));
+        Totp totp = new(secretKey: Base32Encoding.ToBytes(secret));
         
         return totp.ComputeTotp();
     }
