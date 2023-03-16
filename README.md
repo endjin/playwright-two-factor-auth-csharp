@@ -2,15 +2,7 @@
 
 This sample demonstrates how to use the Playwright C# SDK to automatically authenticate against a web application which is protected by either Azure Active Directory or a Microsoft Account which has two-factor authentication.
 
-## Configuring your 2FA
-
-### AAD
-
-TBD
-
-### MSA
-
-TBD
+Read the [full walkthrough blog post](https://endjin.com/blog/2023/03/using-the-playwright-csharp-sdk-to-automate-2fa-authentication-for-aad-and-msa).
 
 ### Environment Variables
 
