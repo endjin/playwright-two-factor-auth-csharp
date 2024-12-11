@@ -1,6 +1,6 @@
-# Playwright 2FA Authentication with AAD or MSA
+# Playwright 2FA Authentication with Entra ID (AAD) or MSA
 
-This sample demonstrates how to use the Playwright C# SDK to automatically authenticate against a web application which is protected by either Azure Active Directory or a Microsoft Account which has two-factor authentication.
+This sample demonstrates how to use the Playwright C# SDK to automatically authenticate against a web application which is protected by either Entra Id (Azure Active Directory) or a Microsoft Account which has two-factor authentication.
 
 Read the [full walkthrough blog post](https://endjin.com/blog/2023/03/using-the-playwright-csharp-sdk-to-automate-2fa-authentication-for-aad-and-msa).
 
